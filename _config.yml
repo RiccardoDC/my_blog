@@ -1,2 +1,7 @@
-permalink: /:title
-
+# permalink: /:title
+# Site settings
+title: Great New Blog Title
+author:
+  name: Riccardo Delli Compagni
+  email: your-email@domain.com
+description: "Great site about...."
