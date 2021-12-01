@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		".current {\n  color: red;\n}\n\n.masthead {\n  padding: 20px 20px 20px 20px;\n  margin: 10px;\n  background: url(\"/assets/images/background.jpg\");\n\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,GAAG,GACX;;AAED,AAAA,SAAS,CAAC,EACR,OAAO,EAAE,mBAAmB,EAC5B,MAAM,EAAE,IAAI,EACZ,UAAU,EAAE,oCAAoC,GAEjD"
+}
