@@ -2,8 +2,8 @@
 # Site settings
 
 
-#baseurl: /my_blog
-source-code: https://github.com/RiccardoDC/my_blog
+baseurl: /my_blog
+
 
 title: Great New Blog Title
 author:
