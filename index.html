@@ -2,15 +2,4 @@
 layout: default
 title: my home page
 ---
-<header class="masthead">
-<h1>My Blog on the web</h1>
-<p>Welcome to my blog!</p>
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-</header>
+{% include post_list.html %}

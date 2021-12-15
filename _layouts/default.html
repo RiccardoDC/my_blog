@@ -1,18 +1,44 @@
 <!DOCTYPE html>
+
 <html>
+
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
   </head>
+
   <body>
-    <div class="content">
 
-      {% include navigation.html %}
-      {{ content }}
 
-      <hr>
-      <footer>Thanks for visiting my blog!</footer>
-    </div>
+
+
+
+  {% include navigation.html %}
+
+  <header>
+
+
+<h1 class="title"> My site  </h1>
+
+
+  </header>
+
+
+
+  <main>
+  {{ content }}
+  </main>
+
+
+
+  <footer class="footer">
+    <hr>
+    Thanks for visiting my blog!
+  </footer>
+
   </body>
+
+
+
 </html>
