@@ -11,38 +11,52 @@
 }
 
 .background{
-    background: url("../images/background.png");
+    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     height: 200vh;
 
 }
 
+.background::before {
+
+  content: "";
+  background-image: url("../images/background.jpg");
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
 
 
+ul {
+  position: relative;
+}
 
 nav{
-    text-align:center;
+    position: relative;
+    text-align: center;
 }
 
 
 nav a{
-    display:inline-block;
-    padding:10px;
+    display: inline-block;
+    padding: 10px;
 }
 
 
-
-
-
 .title {
+  position: relative;
   text-align: center;
 }
 
 .footer {
-  position:fixed;
-  bottom:0;
-  width:100%;
-  height:60px;   /* Height of the footer */
-  background:white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;   /* Height of the footer */
+  background: white;
 }

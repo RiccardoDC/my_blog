@@ -8,28 +8,18 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
   </head>
 
+
   <body>
+    <div class="background">
+        {% include navigation.html %}
 
+        <header>
+          <h1 class="title"> My site  </h1>
+        </header>
 
+        {{ content }}
 
-
-
-  {% include navigation.html %}
-
-  <header>
-
-
-<h1 class="title"> My site  </h1>
-
-
-  </header>
-
-
-
-  <main>
-  {{ content }}
-  </main>
-
+    </div>
 
 
   <footer class="footer">
@@ -38,7 +28,6 @@
   </footer>
 
   </body>
-
 
 
 </html>
