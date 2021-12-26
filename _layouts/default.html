@@ -5,21 +5,24 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
   </head>
 
 
   <body>
-    <div>
-        {% include navigation.html %}
+    <header>
+      <a href="{{site.baseurl}}/index.html" class="header-brand"> rideco </a>
+      {% include navigation.html %}
+    </header>
+    <main>
 
-        <header>
-          <h1 class="title"> My site  </h1>
-        </header>
+       {{ content }}
 
-        {{ content }}
+    </main>
 
-    </div>
+
+
 
 
   <footer class="footer">
