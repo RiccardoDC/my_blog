@@ -109,7 +109,7 @@ input, select {
 }
 
 body {
-  background-color: #f3f3f3;
+  background-color: #000000;
 }
 
 header {
@@ -148,21 +148,25 @@ header .header-brand {
 
 /* INDEX */
 
- .wrapper {
+.wrapper {
 
     margin: 0 auto;
-    width: 700px;
-    height: 338px;
-    background-image: url("../images/welcome_fig.png");
-    background-size:  contain;
-    background-repeat: no-repeat;
-    // background-repeat: no-repeat;
-
-
-
+    width: 100%;
 
     }
 
+
+.img-welcome {
+
+    margin: 0 auto;
+    height: 240px;
+    width: 655px;
+    background-image: url("../images/welcome_fig.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+       // background-repeat: no-repeat;
+
+}
 
   // nav {
   //     position: relative;
