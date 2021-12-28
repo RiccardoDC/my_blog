@@ -4,40 +4,62 @@
 
   <head>
     <meta charset="utf-8">
+
     <title>{{ page.title }}</title>
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
+
   </head>
 
 
-  <body>
+<body>
     <header>
-      <a href="{{site.baseurl}}/index.html" class="header-brand"> rideco </a>
+      <a href="{{site.baseurl}}/index.html" class="header-logo">Rideco</a>
       {% include navigation.html %}
     </header>
 
+      <main>
 
-      <div class="wrapper">
+        <section class="wrapper">
 
-        <div class="img-welcome"></div>
+          <h3 class="welcome-text">
+            Welcome to my blog!
+            <br>
+            <br>
+            My name is Riccardo and I am a data Scientist
+            <br>
+            I have a strong passion for programming, linux and networking
+            <br>
+            <br>
+            In here I share what I have learnt!
+          </h3>
+          <div class="welcome-image"></div>
 
-      </div>
+        </section>
+
+        <section class="index-links">
+          <div class="index-boxlink-1">
+            <h3>Python</h3>
+          </div>
+          <div class="index-boxlink-1">
+            <h3>Python</h3>
+          </div>
+          <div class="index-boxlink-1">
+            <h3>Python</h3>
+          </div>
+
+        </section>
+
+      </main>
 
 
-       {{ content }}
 
 
-
-
-
-
-
-  <footer class="footer">
-    <hr>
-    Thanks for visiting my blog!
-  </footer>
-
-  </body>
-
+</body>
 
 </html>
