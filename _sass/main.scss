@@ -141,15 +141,15 @@ header .header-logo:after {
     content: '\002F\003E';
   }
 
-  nav {
+nav {
       position: relative;
       text-align: center;
   }
 
-  nav a {
+nav a {
 
-    margin: 20px;
-    font-family: serif;
+    margin: 15px;
+    font-family: 'Permanent Marker', cursive;
     font-size: 20px;
     color: #111;
     padding: 20px;
@@ -158,16 +158,32 @@ header .header-logo:after {
 
 /* INDEX */
 
-
-
-
-.wrapper {
+.welcome-section {
 
     margin: 0 auto;
     width: 100%;
 
 }
 
+.welcome-text {
+
+  margin: 10px;
+  border: 2px;
+  padding: 5px;
+  height: 120px;
+
+  font-family: Courier New;
+  font-size: 14px;
+
+  background-color: black;
+
+  border-style: dashed;
+  border-color: white;
+
+  color: white;
+  text-align: center;
+
+}
 
 .welcome-image {
 
@@ -180,51 +196,63 @@ header .header-logo:after {
 
 }
 
+// .background{
+//     position: relative;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     height: 200vh;
+//
+// }
+//
+// .background::before {
+//
+//   content: "";
+//   background-image: url("../images/background.jpg");
+//   position: absolute;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   left: 0px;
+//   opacity: 0.2;
+// }
 
-.welcome-text {
 
-  margin: 10px;
-  border: 2px;
-  padding: 5px;
-  height: 120px;
-
-  background-color: black;
-
-  border-style: dashed;
-  border-color: white;
-
-  color: white;;
-  text-align: center;
-
-}
-
-
-.background{
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200vh;
-
-}
-
-.background::before {
-
-  content: "";
-  background-image: url("../images/background.jpg");
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  left: 0px;
-  opacity: 0.2;
-}
-
-.index-links div {
+.index-boxlink-1 {
 
   margin: 20px;
   width: calc(100%-40px);
   height: 100px;
-  background-color: #f2f2f2;
+  background-color: #cda434;
+
+}
+
+
+.link-section div h3 {
+
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  font-weight: 900;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.icon-image-inrow {
+  text-align: center;
+}
+
+.icon-image {
+
+  display: inline-block;
+  vertical-align: top;
+
+  margin: auto;
+  height: 40px;
+  width: 40px;
+
 
 }

@@ -3,11 +3,14 @@
 <html>
 
   <head>
+
     <meta charset="utf-8">
 
     <title>{{ page.title }}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font from https://fonts.google.com/ -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -18,6 +21,7 @@
 
 
 <body>
+
     <header>
       <a href="{{site.baseurl}}/index.html" class="header-logo">Rideco</a>
       {% include navigation.html %}
@@ -25,13 +29,13 @@
 
       <main>
 
-        <section class="wrapper">
+        <section class="welcome-section">
 
           <h3 class="welcome-text">
             Welcome to my blog!
             <br>
             <br>
-            My name is Riccardo and I am a data Scientist
+            My name is Riccardo and I am a data scientist<br>
             <br>
             I have a strong passion for programming, linux and networking
             <br>
@@ -42,15 +46,26 @@
 
         </section>
 
-        <section class="index-links">
+        <section class="link-section">
+
           <div class="index-boxlink-1">
-            <h3>Python</h3>
+
+            <h3>Programming</h3>
+
+
+              <div class="icon-image-inrow">
+                  <img class="icon-image" src="https://img.icons8.com/color/48/000000/python--v1.png"/>
+                  <img class="icon-image" src="https://img.icons8.com/external-becris-flat-becris/64/000000/external-r-data-science-becris-flat-becris.png"/>
+              </div>
+
+
+          </div>
+
+          <div class="index-boxlink-1">
+            <h3>Linux</h3>
           </div>
           <div class="index-boxlink-1">
-            <h3>Python</h3>
-          </div>
-          <div class="index-boxlink-1">
-            <h3>Python</h3>
+            <h3>Networking</h3>
           </div>
 
         </section>
