@@ -158,6 +158,24 @@ nav a {
 
 /* INDEX */
 
+// This media changes the configuration of the website when seen from a PC
+@media only screen and (min-width: 1000px) {
+
+  main {
+    margin: 0 auto;
+    width: 70%;
+
+  }
+
+  main .welcome-section {
+
+      margin: 0 auto;
+      width: 50%;
+
+  }
+
+}
+
 .welcome-section {
 
     margin: 0 auto;
