@@ -148,11 +148,11 @@ nav {
 
 nav a {
 
-    margin: 15px;
+    margin: 10px;
     font-family: 'Permanent Marker', cursive;
     font-size: 20px;
     color: #111;
-    padding: 20px;
+    padding: 10px;
   }
 
 
@@ -174,7 +174,19 @@ nav a {
 
   }
 
+  main .programming-post1 {
+
+    margin: 20px auto;
+    width: 30%;
+
+  }
+
+
+
 }
+
+
+// This is the code  of the website when seen from a mobile
 
 .welcome-section {
 
@@ -300,6 +312,8 @@ hr {
 footer {
   text-align: center;
   margin: 10px;
+
+
 }
 
 footer ul {
@@ -342,3 +356,51 @@ footer p a {
   color: white;
 
 }
+
+
+/* POST PROGRAMMING */
+
+
+
+.programming-post1 {
+
+  margin: 20px;
+  width: calc(100%-40px);
+  height: 400px;
+  background-color: #cda434;
+
+
+}
+
+
+.post-title {
+
+  font-family: 'Permanent Marker', cursive;
+  font-size: 15px;
+  font-weight: 900;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.post-detail {
+  margin: 5px;
+  font-family: Courier New;
+  font-size: 14px;
+  color: black;
+
+}
+
+.programming-post1-image {
+
+  width: calc(100%-40px);
+  height: 200px;
+  margin: 5px;
+  background-image: url("../images/SARIMAX.jpg");
+  background-size: cover;
+  display: block;
+
+  }

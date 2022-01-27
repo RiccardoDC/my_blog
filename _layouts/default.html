@@ -27,52 +27,10 @@
       {% include navigation.html %}
     </header>
 
-      <main>
+    {{ content }}
 
-        <section class="welcome-section">
-
-          <h3 class="welcome-text">
-            Welcome to my blog!
-            <br>
-            <br>
-            My name is Riccardo and I am a data scientist<br>
-            <br>
-            I have a strong passion for programming, linux and networking
-            <br>
-            <br>
-            In here I share what I have learnt!
-          </h3>
-          <div class="welcome-image"></div>
-
-        </section>
-
-        <section class="link-section">
-
-          <div class="index-boxlink-1">
-            <h3>Programming</h3>
-              <div class="icon-image-centered">
-                  <img class="icon-image" src="https://img.icons8.com/color/48/000000/python--v1.png"/>
-                  <img class="icon-image" src="https://img.icons8.com/external-becris-flat-becris/64/000000/external-r-data-science-becris-flat-becris.png"/>
-              </div>
-          </div>
-
-          <div class="index-boxlink-1">
-            <h3>Linux</h3>
-              <div class="icon-image-centered">
-                <img class="icon-image-linux" src="https://img.icons8.com/color/96/000000/linux--v1.png"/>
-              </div>
-          </div>
-
-          <div class="index-boxlink-1">
-            <h3>Networking</h3>
-          </div>
-
-        </section>
-
-      </main>
-
-    <hr>
-{% include footer.html %}
+    
+    {% include footer.html %}
 
 
 </body>
