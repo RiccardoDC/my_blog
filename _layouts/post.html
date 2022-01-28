@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html>
@@ -8,7 +9,7 @@
 
     <title>{{ page.title }}</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
     <!-- Font from https://fonts.google.com/ -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +17,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/github-markdown.css">
+
+    <style>
+
+    	.markdown-body {
+
+    		box-sizing: border-box;
+    		min-width: 200px;
+    		max-width: 980px;
+    		margin: 0 auto;
+    		padding: 45px;
+
+    	}
+
+    </style>
 
   </head>
 
-{{ content }}
+
+<body>
+
+
+
+    <header>
+      <a href="{{site.baseurl}}/index.html" class="header-logo">Rideco</a>
+      {% include navigation.html %}
+    </header>
+
+
+    <article class="markdown-body">
+
+    {{ content }}
+
+    </article>
+
+
+    {% include footer.html %}
+
+
+</body>
+
+</html>

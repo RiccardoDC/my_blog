@@ -4,8 +4,10 @@
 
 baseurl: /my_blog
 
+markdown: kramdown
 kramdown:
   parse_block_html: true
+
 
 # Build settings
 
