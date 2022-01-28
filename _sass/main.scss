@@ -181,7 +181,15 @@ nav a {
 
   }
 
+  footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 15px;
 
+  }
 
 }
 
@@ -311,8 +319,6 @@ hr {
 
 footer {
   text-align: center;
-  margin: 10px;
-
 
 }
 
@@ -386,11 +392,21 @@ footer p a {
   padding: 15px 0px;
 }
 
-.post-detail {
+.post-date {
   margin: 5px;
   font-family: Courier New;
   font-size: 14px;
   color: black;
+  text-align: right;
+
+}
+
+.post-summary {
+  margin: 5px;
+  font-family: Courier New;
+  font-size: 14px;
+  color: black;
+  text-align: left;
 
 }
 

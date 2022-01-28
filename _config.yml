@@ -4,6 +4,10 @@
 
 baseurl: /my_blog
 
+kramdown:
+  parse_block_html: true
+
+# Build settings
 
 title: Great New Blog Title
 author:
